@@ -39,7 +39,7 @@ def configure_connector():
                 "mode": "incrementing",
                 "incrementing.column.name": "stop_id",
                 "topic.prefix": "jdbc_",
-                "poll.interval.ms": "300000",
+                "poll.interval.ms": "900000",
             }
         }),
     )
